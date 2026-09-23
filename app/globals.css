@@ -1,0 +1,61 @@
+@import 'tailwindcss';
+@import 'tw-animate-css';
+
+@theme {
+  --font-sans: 'Geist', system-ui, -apple-system, sans-serif;
+  --font-mono: 'Geist Mono', 'Courier New', monospace;
+  
+  --color-background: #0f1723;
+  --color-foreground: #f0f4f8;
+  --color-primary: #d4af37;
+  --color-primary-foreground: #0f1723;
+  --color-secondary: #2a4a6a;
+  --color-secondary-foreground: #f0f4f8;
+  --color-accent: #f0e68c;
+  --color-accent-foreground: #0f1723;
+  --color-muted: #556b82;
+  --color-muted-foreground: #f0f4f8;
+  --color-card: rgba(255, 255, 255, 0.05);
+  --color-card-foreground: #f0f4f8;
+  --color-border: rgba(255, 255, 255, 0.1);
+  --color-input: rgba(255, 255, 255, 0.05);
+  --radius: 0.75rem;
+}
+
+@layer base {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  html {
+    background: linear-gradient(135deg, #0f1723 0%, #1a2a40 100%);
+  }
+
+  body {
+    @apply bg-background text-foreground font-sans antialiased;
+  }
+}
+
+/* Glassmorphism utility */
+@layer components {
+  .glass {
+    @apply bg-white/10 backdrop-blur-2xl border border-white/20 rounded-lg;
+  }
+
+  .glass-sm {
+    @apply bg-white/5 backdrop-blur-xl border border-white/10 rounded-lg;
+  }
+
+  .gold-text {
+    @apply text-primary;
+  }
+
+  .gradient-text {
+    background: linear-gradient(135deg, #d4af37 0%, #f0e68c 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+}
