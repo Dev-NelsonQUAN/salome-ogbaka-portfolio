@@ -2,9 +2,9 @@
 @import 'tw-animate-css';
 
 @theme {
-  --font-sans: 'Geist', system-ui, -apple-system, sans-serif;
+  --font-sans: var(--font-poppins), system-ui, -apple-system, sans-serif;
   --font-mono: 'Geist Mono', 'Courier New', monospace;
-  
+
   --color-background: #0f1723;
   --color-foreground: #f0f4f8;
   --color-primary: #d4af37;
@@ -38,7 +38,6 @@
   }
 }
 
-/* Glassmorphism utility */
 @layer components {
   .glass {
     @apply bg-white/10 backdrop-blur-2xl border border-white/20 rounded-lg;
