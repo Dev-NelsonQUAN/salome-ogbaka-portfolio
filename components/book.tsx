@@ -13,7 +13,6 @@ export function Book() {
       <div className="max-w-6xl mx-auto relative z-10">
         <div className="grid md:grid-cols-12 gap-12 items-center">
           
-          {/* Left Column: Content */}
           <div className="md:col-span-7 space-y-8 order-2 md:order-1">
             <div className="space-y-4">
               <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-amber-50 border border-amber-200 text-amber-800 text-xs font-semibold tracking-wide">
@@ -49,7 +48,7 @@ export function Book() {
 
             <div className="flex flex-col sm:flex-row gap-4 pt-2">
               <a
-                href="https://wa.me/234?text=I%20want%20to%20order%20the%20Legal%20Blueprint%20book"
+                href="https://wa.me/2348132727759?text=I%20want%20to%20order%20the%20Legal%20Blueprint%20book"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center justify-center px-6 py-3.5 rounded-xl bg-slate-950 text-white font-semibold hover:bg-slate-800 transition-all text-sm shadow-md gap-2 group"
@@ -60,7 +59,7 @@ export function Book() {
               </a>
 
               <a
-                href="https://wa.me/234?text=I%20have%20a%20question%20about%20the%20Legal%20Blueprint%20book"
+                href="https://wa.me/2348132727759?text=I%20have%20a%20question%20about%20the%20Legal%20Blueprint%20book"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center justify-center px-6 py-3.5 rounded-xl bg-slate-50 border border-slate-200 text-slate-800 font-semibold hover:bg-slate-100 transition-colors text-sm"
@@ -86,7 +85,6 @@ export function Book() {
                 />
               </div>
 
-              {/* Floating Badge */}
               <div className="absolute -bottom-3 -right-3 bg-slate-950 text-white px-4 py-2 rounded-xl shadow-lg border border-amber-500/30 text-xs font-bold font-serif flex items-center gap-1.5">
                 <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse" />
                 <span>Out Now</span>
