@@ -23,7 +23,7 @@ export function CalloutCTA() {
 
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4 pt-2">
           <a
-            href="https://wa.me/234"
+              href="https://wa.me/2348132727759"
             target="_blank"
             rel="noopener noreferrer"
             className="w-full sm:w-auto inline-flex items-center justify-center gap-2.5 px-8 py-4 rounded-xl bg-slate-950 text-white font-semibold hover:bg-slate-800 transition-all text-sm shadow-lg group"

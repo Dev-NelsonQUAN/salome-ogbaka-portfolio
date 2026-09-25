@@ -26,17 +26,17 @@ export function Hero() {
                 for African Entrepreneurs
               </h1>
 
-              <p className="text-lg text-slate-300 max-w-xl leading-relaxed">
+              <p className="text-md md:text-lg text-slate-300 max-w-xl leading-relaxed">
                 Empowering startups, founders, and growing businesses with clear, bulletproof corporate governance, contract protection, and regulatory compliance.
               </p>
             </div>
 
             <div className="flex flex-col sm:flex-row gap-4">
               <a
-                href="https://wa.me/234"
+              href="https://wa.me/2348132727759"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center justify-center px-7 py-3.5 rounded-md bg-amber-500 text-slate-950 font-semibold hover:bg-amber-400 transition-all shadow-md shadow-amber-500/20 active:scale-95 text-sm gap-2 group"
+                className="inline-flex items-center justify-center px-7 py-3 md:py-3.5 rounded-md bg-amber-500 text-slate-950 font-semibold hover:bg-amber-400 transition-all shadow-md shadow-amber-500/20 active:scale-95 text-sm gap-2 group"
               >
                 <span>Start a Conversation</span>
                 <ArrowRight size={18} className="group-hover:translate-x-1 transition-transform" />
@@ -44,10 +44,10 @@ export function Hero() {
 
               <a
                 href="#book"
-                className="inline-flex items-center justify-center px-7 py-3.5 rounded-md border border-slate-700 text-slate-200 hover:text-amber-400 hover:border-amber-500/40 bg-slate-900/50 backdrop-blur-sm transition-all text-sm font-medium gap-2"
+                className="inline-flex items-center justify-center px-7 py-3 md:py-3.5 rounded-md border border-slate-700 text-slate-200 hover:text-amber-400 hover:border-amber-500/40 bg-slate-900/50 backdrop-blur-sm transition-all text-sm font-medium gap-2"
               >
-                <BookOpen size={18} className="text-amber-400" />
                 <span>Get Her Published Book</span>
+                <BookOpen size={18} className="text-amber-400" />
               </a>
             </div>
 
